@@ -1,0 +1,95 @@
+\documentclass[12pt]{report}
+\usepackage{sectsty}
+\usepackage[ruled,vlined]{alogorithm2e}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{enumitem}
+\chapterfont{\centering}
+\begin{document}
+\title{Workshop on LateX}
+\author{ICFOSS}
+\date{ 01 January 2020}
+\maketitle
+\chapter{ INTRODUCTION}
+\section{sec 1}
+figure in \ref{f:l1}
+
+\begin{figure}[H]
+\centering
+\includegraphics{flower.jpeg}
+\caption{rose}
+\label{f:l1}
+
+\end{figure}
+
+The \textit{\textbf {first document }}is here with the following statements.
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf {Name} & \textbf{Age} & \textbf{Gender}  \\
+\hline
+athul & 42 & M \\
+minu & 37 & F \\
+Aami & 11 & F\\
+Aruna & 8 & F \\
+\hline
+
+\end{tabular}
+\end{center}
+
+\section{Listing of Elements}
+\begin{itemize}
+\item[*] First Point
+\item Second Point
+\item Third Point
+\end{itemize}
+
+
+\section{Listing of Items}
+\begin{enumerate}[label=\alph*]
+\item First Point
+\item Second Point
+\item Third Point
+\end{enumerate}
+
+\section{Listing of Items}
+\begin{enumerate}[label=\roman*]
+\item First Point
+\item Second Point
+\item Third Point
+\end{enumerate}
+
+\section{Listing of Items}
+\begin{enumerate}[label=\Roman*]
+\item First Point
+\item Second Point
+\item Third Point
+\end{enumerate}
+
+\section{Listing of Items}
+\begin{enumerate}[label=\Alph*]
+\item First Point
+\item Second Point
+\item Third Point
+\end{enumerate}
+\subsection{ sub 1}
+subsection of section 1
+\subsubsection{sub sub 1}
+sub subsection of section 1
+\chapter{REVIEW}
+\section{sec 2}
+The document is here with the following statements. 
+
+\begin{figure}[H]
+\centering
+\includegraphics{flower.jpeg}
+\caption{rose}
+\end{figure}
+\section{sec 3}The first document is here with the following statements. 
+
+\begin{algorithm}[H]
+\caption{Algorithm}
+\KwResult{Result}
+\end{algorithm}
+
+\end{document}
